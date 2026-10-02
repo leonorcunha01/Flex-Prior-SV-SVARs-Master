@@ -18,6 +18,7 @@ Where applicable, the original authors' code has been modified to fit the purpos
 ## Repository structure
 The repository structure is the following:
 
+```
 Flex-Prior-SV-SVARs-Master/
 │
 ├── SV_SVARs/
@@ -48,7 +49,7 @@ Flex-Prior-SV-SVARs-Master/
 │
 └── Thesis/
     └── sv_svars_thesis.pdf
-
+```
 
 #### Notes
 Matlab data files (.mat files) with the simulation results and the empirical datasets are included, so the analysis can be run directly and briefly; the simulations can be run from scratch, but this requires Matlab parallel computing toolbox and takes several hours
