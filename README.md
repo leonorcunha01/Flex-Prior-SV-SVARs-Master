@@ -2,10 +2,32 @@
 Flexible Prior Distributions for Stochastic Volatility in Bayesian Structural Vector Autoregressions
 
 ## Description
-This is the repository for the Master Thesis 'Flexible Prior Distributions for Stochastic Volatility in Bayesian Structural Vector Autoregressions'.
+This is the repository for the Master Thesis 'Flexible Prior Distributions for Stochastic Volatility in Bayesian Structural Vector Autoregressions'. 
 
 The folder SV_SVARs contains the relevant code, Thesis folder contains the thesis pdf.
 
+The author is Leonor Cunha (Msc. Econometrics), supervised by Dr. Jan Hendryk Prüser & Prof. Dr. Christoph Hanck, at TU Dortmund in 2025. 
+
+### Project Description
+In Bayesian estimation of SV-identified Structural VARs, the variance of log-volatility processes tends to be time-constant. This thesis investigates whether
+such models can be extended with time-variant priors for this parameter, namely
+a Horseshoe prior, to better model periods of strong, sudden changes in variables’ behavior such as during the COVID-19 pandemic.
+
+The flexible VAR model is compared to a more standard specification using
+a tight Inverse-Gamma prior for the variance. MCMC samplers for each variant
+are presented. Challenges arising with this framework are discussed and dealt
+with, namely a scaling issue with the impact matrix and the corresponding
+implications for VAR tools. 
+
+The variants are compared first in a Monte Carlo
+study and then in an empirical application to global oil markets in the pandemic
+period, using instrumental variables and narrative measures for shock labeling.
+IRFs, FEVDs and HDs are computed and results compared to findings from
+prominent literature on the subject.
+
+The flexible prior variant is found to perform slightly better in the simulation
+study, but in the empirical application the evidence is not strong enough to
+determine a clear winner.
 
 ### Code Attribution
 This repository uses or adapts code from publicly available implementations associated with the following papers:
